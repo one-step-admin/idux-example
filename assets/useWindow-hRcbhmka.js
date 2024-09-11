@@ -1,0 +1,1 @@
+import{ae as u,a2 as s}from"./index-CCio_QS_.js";function i(){const e=u();function t(o){e.add(o),s.emit("scrollToWindow",typeof o=="string"?o:o.name)}function r(o){e.remove(o)}function n(o){e.reload(o),setTimeout(()=>{e.reload(o)},0)}return{add:t,remove:r,reload:n}}export{i as u};
